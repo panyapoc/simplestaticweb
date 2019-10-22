@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'AmazonAmberLt';
+    src: url('./AmazonEmber_Lt.ttf');
+}
+
+html,
+body {
+    background-color: #161E2D;
+    font-family: "AmazonAmberLt";
+    text-align: center;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.middlecontainer{
+    margin: auto;
+    width: 288px;
+}
+
+
+.image {
+    width: 100%;
+    content:url(./logo.png);
+}
